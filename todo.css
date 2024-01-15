@@ -1,0 +1,98 @@
+body{
+  font-family: Arial;
+  padding-bottom: 3000px;
+}
+
+.sub-btn{
+  background-color: black;
+  color: white;
+  height: 2.3rem;
+  width: 6rem;
+  border: none;
+  border-radius: 8rem;
+  font-weight: bold;
+  font-family: Arial;
+  cursor: pointer;
+  transition: 0.1s;
+  margin-bottom: 30px;
+}
+
+.is-subscribed{
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+.enter-name, .order-cost{
+  width: 13rem;
+  height: 2rem;
+  border: 1px solid gray;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.submit-btn, .calculate-cost,.add-btn{
+  background-color: rgb(0, 112, 0);
+  border: none;
+  color: white;
+  height: 2.2rem;
+  width: 6rem;
+  font-size: 15px;
+}
+
+
+.gaming, .music, .tech{
+  background-color: lightgray;
+  border:  none;
+  height: 35px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.is-toggled{
+  background-color: black;
+  color: white;
+  border:  none;
+  height: 35px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.enter-todo{
+  width: 170px;
+  height: 20px;
+  padding: 10px;
+  margin-right: 5px;
+
+}
+.enter-date{
+  width: 150dspx;
+  height: 40px;
+  margin-right: 5px;
+}
+.add-btn{
+  height: 42px;
+  cursor: pointer;
+}
+
+.display-todo, .todo-input-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.todo-input-grid{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.delete-todo-btn{
+  background-color: darkred;
+  border: none;
+  color: white;
+  height: 2.2rem;
+  width: 6rem;
+  font-size: 15px;
+}
